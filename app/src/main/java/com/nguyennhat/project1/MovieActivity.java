@@ -26,13 +26,14 @@ public class MovieActivity extends AppCompatActivity implements ClickListener, S
     private RecyclerView recycleView;
     private boolean isGridMode = false;
     private SearchView mSearchView;
-    private Toolbar mToolbar;
+    private Toolbar toolbar;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
+
 
         recycleView = findViewById(R.id.movierecycle);
         recycleView.setHasFixedSize(true);
