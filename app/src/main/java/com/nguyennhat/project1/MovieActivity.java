@@ -33,10 +33,7 @@ public class MovieActivity extends AppCompatActivity implements ClickListener, S
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         recycleView = findViewById(R.id.movierecycle);
         recycleView.setHasFixedSize(true);
         prepareMovie();
