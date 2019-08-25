@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".DetailActivity">
 
     <LinearLayout
@@ -28,6 +29,18 @@
             android:layout_height="match_parent"
             android:text=""/>
 
+        <Button
+            android:id="@+id/detailwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch Movie"/>
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
