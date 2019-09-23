@@ -1,5 +1,5 @@
 # MovieList
-This is a simple Android app that represents a list of my favorite movies in different modes. It also represents a specific detail for every movie when you click on them. 
+
 
 
 - Clone the repository into a directory <name>:
